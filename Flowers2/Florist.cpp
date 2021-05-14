@@ -5,9 +5,11 @@
 #include "Florist.h"
 #include "DeliveryPerson.h"
 #include "FlowerArranger.h"
-Florist::Florist(std::string name,DeliveryPerson deliveryPerson1,FlowerArranger flowerArranger1) : Person(name)
+Florist::Florist(std::string name, DeliveryPerson* deliveryPerson, FlowerArranger* flowerArranger) : Person(name)
 {
-
+    this->deliveryPerson=deliveryPerson;
+    this->flowerArranger=flowerArranger;
+    this->name=name;
 }
 
 

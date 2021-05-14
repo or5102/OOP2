@@ -15,10 +15,10 @@
 class Florist : public Person {
 
 protected:
-    DeliveryPerson deliveryPerson;
-    FlowerArranger flowerArranger;
+    DeliveryPerson* deliveryPerson;
+    FlowerArranger* flowerArranger;
 public:
-    Florist(std::string,DeliveryPerson*,FlowerArranger*);
+    Florist(std::string, DeliveryPerson*, FlowerArranger*);
 
     void acceptOrder(Person *, std::vector<std::string>);
 
