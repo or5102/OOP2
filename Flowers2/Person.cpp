@@ -5,6 +5,8 @@
 #include <xstring>
 #include <iostream>
 #include "Person.h"
+#include "Florist.h"
+
 Person::Person(std::string name) : name(name){}
 std::string Person :: getName(){
     return name;

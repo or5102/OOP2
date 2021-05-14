@@ -6,16 +6,17 @@
 #define FLOWERS2_FLORIST_H
 
 
-#include <xstring>
+#include <iostream>
+#include <vector>
 #include "Person.h"
 
-class Florist {
+class Florist : public Person
+{
+private:
 
 public:
-    void acceptOrder(Person *pPerson, std::vector<std::string> vector);
-
-    const std::basic_string<_Elem, _Traits, _Alloc> &getName();
+    Florist(std::string);
+    void acceptOrder(Person*, std::vector<std::string>);
+    std::string getName();
 };
-
-
 #endif //FLOWERS2_FLORIST_H

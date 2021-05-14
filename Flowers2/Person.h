@@ -4,8 +4,11 @@
 
 #ifndef FLOWERS2_PERSON_H
 #define FLOWERS2_PERSON_H
+
 #include <vector>
-#include "Florist.h"
+//#include "Florist.h"
+#include <iostream>
+class Florist;//forward declaration
 
 class Person {
 protected:

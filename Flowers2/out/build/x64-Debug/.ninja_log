@@ -1,0 +1,8 @@
+# ninja log v5
+16	215	6426883978917932	CMakeFiles/Flowers2.dir/Grower.cpp.obj	6c9b026488cf3f41
+26	236	6426883979217136	CMakeFiles/Flowers2.dir/Gardener.cpp.obj	2a06a5647e38f85e
+39	247	6426883979217136	CMakeFiles/Flowers2.dir/FlowerArranger.cpp.obj	ed1367af04cf58e3
+20	264	6426883979396664	CMakeFiles/Flowers2.dir/Wholesaler.cpp.obj	41a8343253d43979
+42	266	6426883979496389	CMakeFiles/Flowers2.dir/FlowersBouquet.cpp.obj	59dd9e104913bf03
+47	267	6426883979506367	CMakeFiles/Flowers2.dir/DeliveryPerson.cpp.obj	4da49f7b0642c42f
+8	852	6426883985512245	CMakeFiles/Flowers2.dir/main.cpp.obj	5dd994b0e261a8ae

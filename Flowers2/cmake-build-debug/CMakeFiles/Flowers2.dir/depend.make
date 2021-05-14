@@ -6,6 +6,7 @@ CMakeFiles\Flowers2.dir\DeliveryPerson.cpp.obj: ..\DeliveryPerson.h
 
 CMakeFiles\Flowers2.dir\Florist.cpp.obj: ..\Florist.cpp
 CMakeFiles\Flowers2.dir\Florist.cpp.obj: ..\Florist.h
+CMakeFiles\Flowers2.dir\Florist.cpp.obj: ..\Person.h
 
 CMakeFiles\Flowers2.dir\FlowerArranger.cpp.obj: ..\FlowerArranger.cpp
 CMakeFiles\Flowers2.dir\FlowerArranger.cpp.obj: ..\FlowerArranger.h
@@ -19,11 +20,14 @@ CMakeFiles\Flowers2.dir\Gardener.cpp.obj: ..\Gardener.h
 CMakeFiles\Flowers2.dir\Grower.cpp.obj: ..\Grower.cpp
 CMakeFiles\Flowers2.dir\Grower.cpp.obj: ..\Grower.h
 
+CMakeFiles\Flowers2.dir\Person.cpp.obj: ..\Florist.h
 CMakeFiles\Flowers2.dir\Person.cpp.obj: ..\Person.cpp
 CMakeFiles\Flowers2.dir\Person.cpp.obj: ..\Person.h
 
 CMakeFiles\Flowers2.dir\Wholesaler.cpp.obj: ..\Wholesaler.cpp
 CMakeFiles\Flowers2.dir\Wholesaler.cpp.obj: ..\Wholesaler.h
 
+CMakeFiles\Flowers2.dir\main.cpp.obj: ..\Florist.h
+CMakeFiles\Flowers2.dir\main.cpp.obj: ..\Person.h
 CMakeFiles\Flowers2.dir\main.cpp.obj: ..\main.cpp
 
