@@ -14,11 +14,10 @@ std::string Person::getName() {
 }
 
 void Person::orderFlowers(Florist *florist, Person *person, std::vector<std::string> order) {
-    std::cout << getName() << " orders flowers to " << person->getName() << " from " << florist->getName() << std::endl;
+    std::cout << this->getName() << " orders flowers to " << person->getName() << " from Florist " << florist->getName() <<": "<< (new FlowersBouquet(order))->toString()<<"." << std::endl;
     florist->acceptOrder(person, order);
 }
 
 void Person::acceptFlowers(FlowersBouquet *bouquet) {
-    std::cout << this->getName() << " accepts the flowers: " << std::string(bouquet->toString()) << std::endl;
-
+    std::cout << this->getName() << " accepts the flowers: " << bouquet->toString() <<"."<< std::endl;
 }

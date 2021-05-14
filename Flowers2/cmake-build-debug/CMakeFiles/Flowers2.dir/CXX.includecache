@@ -6,35 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Shust/Desktop/OOP2/Flowers2/Florist.h
+C:/Users/or510/OneDrive/Desktop/Assignment2 OOP/OOP2/Flowers2/FlowersBouquet.cpp
 iostream
 -
 vector
 -
-Person.h
-C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
-
-C:/Users/Shust/Desktop/OOP2/Flowers2/FlowersBouquet.h
-iostream
--
-vector
--
-
-C:/Users/Shust/Desktop/OOP2/Flowers2/Person.cpp
 xstring
 -
-iostream
--
-Person.h
-C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
-Florist.h
-C:/Users/Shust/Desktop/OOP2/Flowers2/Florist.h
-
-C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
-vector
--
-iostream
+string
 -
 FlowersBouquet.h
-C:/Users/Shust/Desktop/OOP2/Flowers2/FlowersBouquet.h
+C:/Users/or510/OneDrive/Desktop/Assignment2 OOP/OOP2/Flowers2/FlowersBouquet.h
+
+C:/Users/or510/OneDrive/Desktop/Assignment2 OOP/OOP2/Flowers2/FlowersBouquet.h
+iostream
+-
+vector
+-
 

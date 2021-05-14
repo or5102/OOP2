@@ -4,10 +4,14 @@
 
 #ifndef FLOWERS2_WHOLESALER_H
 #define FLOWERS2_WHOLESALER_H
-
-
-class Wholesaler {
-
+#include "Person.h"
+#include "Grower.h"
+class Wholesaler: public Person {
+protected:
+    Grower* grower;
+public:
+    Wholesaler(std::string, Grower*);
+    FlowersBouquet* acceptOrder(std::vector<std::string>);
 };
 
 

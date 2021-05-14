@@ -6,8 +6,15 @@
 #define FLOWERS2_GARDENER_H
 
 
-class Gardener {
+#include "FlowersBouquet.h"
+#include "Person.h"
 
+class Gardener : public Person {
+
+public:
+    Gardener(std::string);
+
+    FlowersBouquet* prepareBouquet(std::vector<std::string>);
 };
 
 

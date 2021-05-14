@@ -5,26 +5,28 @@
 #include "Florist.h"
 #include "DeliveryPerson.h"
 #include "FlowerArranger.h"
-Florist::Florist(std::string name, DeliveryPerson* deliveryPerson, FlowerArranger* flowerArranger) : Person(name)
+Florist::Florist(std::string name, DeliveryPerson* deliveryPerson, FlowerArranger* flowerArranger, Wholesaler* wholesaler) : Person(name)
 {
     this->deliveryPerson=deliveryPerson;
     this->flowerArranger=flowerArranger;
-    this->name=name;
+    this->wholesaler=wholesaler;
 }
 
 
 void Florist::acceptOrder(Person* person, std::vector<std::string> order)
 {
-
-    acceptOrder(person,order);
-    std::cout<<person->getName()<<"returns arranged flowers to"<<this->getName()<<std::endl;
-
+    std::cout<<"Florist "<<this->getName()<<" forwards request to Wholesaler "<<this->wholesaler->getName()<<"."<<std::endl;
+    FlowersBouquet* bouquet=this->wholesaler->acceptOrder(order);
+    std::cout<<"Wholesaler "<<this->wholesaler->getName()<<" returns flowers to Florist "<<this->getName()<<"."<<std::endl;
+    std::cout<<"Florist "<<this->getName()<<" request flowers arrangement from Flower Arranger "<<this->flowerArranger->getName()<<"."<<std::endl;
+    this->flowerArranger->arrangeFlowers(bouquet);
+    std::cout<<"Flower Arranger "<<this->flowerArranger->getName()<<" returns arranged flowers to Florist "<<this->getName()<<"."<<std::endl;
+    std::cout<<"Florist "<<this->getName()<<" forwards flowers to Delivery Person "<<this->deliveryPerson->getName()<<"."<<std::endl;
+    this->deliveryPerson->deliver(person,bouquet);
 }
-void Florist::deliver(Person *, FlowersBouquet *) {
-
-}
 
 
+/*
 std::string Florist::getName() {
     return "Florist " + Person::getName();
-}
+}*/

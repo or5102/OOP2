@@ -14,10 +14,7 @@ class DeliveryPerson : public Person {
 public:
 
     DeliveryPerson(std::string);
-
-    std::string getName();
-
-    void deliver(Person *person, FlowersBouquet bouquet);
+    void deliver(Person *, FlowersBouquet*);
 
 };
 

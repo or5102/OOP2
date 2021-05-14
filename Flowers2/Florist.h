@@ -11,20 +11,22 @@
 #include "Person.h"
 #include "DeliveryPerson.h"
 #include "FlowerArranger.h"
-
+#include "Wholesaler.h"
+class DeliveryPerson;
 class Florist : public Person {
 
 protected:
+    Wholesaler* wholesaler;
     DeliveryPerson* deliveryPerson;
     FlowerArranger* flowerArranger;
 public:
-    Florist(std::string, DeliveryPerson*, FlowerArranger*);
+    Florist(std::string, DeliveryPerson*, FlowerArranger*, Wholesaler*);
 
     void acceptOrder(Person *, std::vector<std::string>);
 
     void deliver(Person*,FlowersBouquet*);
 
-    std::string getName();
+    /*std::string getName();*/
 
 };
 

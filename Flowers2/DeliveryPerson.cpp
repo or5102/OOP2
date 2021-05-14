@@ -4,9 +4,9 @@
 
 #include "DeliveryPerson.h"
 
-DeliveryPerson::DeliveryPerson(std::string) : Person(name) {};
+DeliveryPerson::DeliveryPerson(std::string name) : Person(name) {}
 
-void DeliveryPerson::deliver(Person *person, FlowersBouquet bouquet) {
-
-    //deliver(person,bouquet);
+void DeliveryPerson::deliver(Person* person, FlowersBouquet* bouquet) {
+    std::cout<<"Delivery Person "<<this->getName()<<" delivers flowers "<<person->getName()<<"."<<std::endl;
+    person->acceptFlowers(bouquet);
 }

@@ -14,7 +14,7 @@ private:
     bool isArranged;
 
 public:
-    FlowersBouquet(std::vector<std::string> bouquet);
+    FlowersBouquet(std::vector<std::string>);
 
     bool FlowersBouquet::getIsArranged();
 
