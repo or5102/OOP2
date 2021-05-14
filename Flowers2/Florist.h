@@ -24,10 +24,6 @@ public:
 
     void acceptOrder(Person *, std::vector<std::string>);
 
-    void deliver(Person*,FlowersBouquet*);
-
-    /*std::string getName();*/
-
 };
 
 #endif //FLOWERS2_FLORIST_H

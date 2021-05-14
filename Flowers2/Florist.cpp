@@ -25,8 +25,3 @@ void Florist::acceptOrder(Person* person, std::vector<std::string> order)
     this->deliveryPerson->deliver(person,bouquet);
 }
 
-
-/*
-std::string Florist::getName() {
-    return "Florist " + Person::getName();
-}*/
