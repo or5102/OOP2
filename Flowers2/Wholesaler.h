@@ -7,7 +7,7 @@
 #include "Person.h"
 #include "Grower.h"
 class Wholesaler: public Person {
-protected:
+private:
     Grower* grower;
 public:
     Wholesaler(std::string, Grower*);
