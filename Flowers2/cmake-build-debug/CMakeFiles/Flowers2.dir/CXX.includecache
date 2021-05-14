@@ -14,17 +14,27 @@ vector
 Person.h
 C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
 
-C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
-vector
--
+C:/Users/Shust/Desktop/OOP2/Flowers2/FlowersBouquet.h
 iostream
 -
+vector
+-
 
-C:/Users/Shust/Desktop/OOP2/Flowers2/main.cpp
+C:/Users/Shust/Desktop/OOP2/Flowers2/Person.cpp
+xstring
+-
 iostream
 -
 Person.h
 C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
 Florist.h
 C:/Users/Shust/Desktop/OOP2/Flowers2/Florist.h
+
+C:/Users/Shust/Desktop/OOP2/Flowers2/Person.h
+vector
+-
+iostream
+-
+FlowersBouquet.h
+C:/Users/Shust/Desktop/OOP2/Flowers2/FlowersBouquet.h
 

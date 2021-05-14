@@ -4,9 +4,18 @@
 
 #ifndef FLOWERS2_FLOWERARRANGER_H
 #define FLOWERS2_FLOWERARRANGER_H
+#include <iostream>
+#include <vector>
+#include "Person.h"
 
+class FlowerArranger : public Person {
 
-class FlowerArranger {
+public:
+    FlowerArranger(std::string);
+    void arrangeFlowers(FlowersBouquet*);
+    std::string getName();
+    void acceptFlowers(FlowersBouquet*);
+
 
 };
 

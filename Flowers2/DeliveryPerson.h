@@ -6,7 +6,18 @@
 #define FLOWERS2_DELIVERYPERSON_H
 
 
-class DeliveryPerson {
+#include "Person.h"
+#include "iostream"
+
+class DeliveryPerson : public Person {
+
+public:
+
+    DeliveryPerson(std::string);
+
+    std::string getName();
+
+    void deliver(Person *person, FlowersBouquet bouquet);
 
 };
 

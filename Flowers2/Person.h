@@ -6,8 +6,10 @@
 #define FLOWERS2_PERSON_H
 
 #include <vector>
-//#include "Florist.h"
+
 #include <iostream>
+#include "FlowersBouquet.h"
+
 class Florist;//forward declaration
 
 class Person {
@@ -15,8 +17,13 @@ protected:
     std::string name;
 public:
     Person(std::string);
+
     virtual std::string getName();
-    void orderFlowers(Florist*,Person*,std::vector<std::string>);
+
+    virtual void orderFlowers(Florist *, Person *, std::vector<std::string>);
+
+    virtual void Person::acceptFlowers(FlowersBouquet *bouquet);
+
 };
 
 

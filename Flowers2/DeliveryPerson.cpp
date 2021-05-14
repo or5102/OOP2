@@ -3,3 +3,10 @@
 //
 
 #include "DeliveryPerson.h"
+
+DeliveryPerson::DeliveryPerson(std::string) : Person(name) {};
+
+void DeliveryPerson::deliver(Person *person, FlowersBouquet bouquet) {
+
+    //deliver(person,bouquet);
+}
