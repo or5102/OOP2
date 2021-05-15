@@ -23,7 +23,7 @@ public:
     Florist(std::string, DeliveryPerson*, FlowerArranger*, Wholesaler*);
 
     void acceptOrder(Person *, std::vector<std::string>);
-
+    std::string getName() override;
 };
 
 #endif //FLOWERS2_FLORIST_H

@@ -7,11 +7,13 @@
 FlowerArranger::FlowerArranger(std::string name) : Person(name) {}
 
 void FlowerArranger::arrangeFlowers(FlowersBouquet *bouquet) {
-    std::cout<<"Flower Arranger "<<this->name<<" arranges flowers."<<std::endl;
+    std::cout<<this->getName()<<" arranges flowers."<<std::endl;
     bouquet->arrange();
 }
 
-
+std::string FlowerArranger::getName() {
+    return "Flower Arranger "+Person::getName();
+}
 
 
 

@@ -14,7 +14,7 @@ int main()
     std::vector<std::string> order = { "Roses", "Violets", "Gladiolus" };
 
     chris->orderFlowers(fred, robin, order);
-
+    order.clear();
     delete fred;
     delete chris;
     delete robin;

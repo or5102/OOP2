@@ -7,6 +7,10 @@
 DeliveryPerson::DeliveryPerson(std::string name) : Person(name) {}
 
 void DeliveryPerson::deliver(Person* person, FlowersBouquet* bouquet) {
-    std::cout<<"Delivery Person "<<this->getName()<<" delivers flowers "<<person->getName()<<"."<<std::endl;
+    std::cout<<this->getName()<<" delivers flowers "<<person->getName()<<"."<<std::endl;
     person->acceptFlowers(bouquet);
+}
+
+std::string DeliveryPerson::getName() {
+    return "Delivery Person "+Person::getName();
 }
