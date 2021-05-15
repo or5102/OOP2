@@ -15,7 +15,7 @@ public:
 
     DeliveryPerson(std::string);
     void deliver(Person *, FlowersBouquet*);
-
+    std::string getName() override;
 };
 
 

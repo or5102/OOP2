@@ -16,6 +16,7 @@ private:
 public:
     Grower(std::string , Gardener*);
     FlowersBouquet* prepareOrder(std::vector<std::string> vector);
+    std::string getName() override;
 };
 
 

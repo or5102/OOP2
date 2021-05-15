@@ -13,6 +13,7 @@ class FlowerArranger : public Person {
 public:
     FlowerArranger(std::string);
     void arrangeFlowers(FlowersBouquet*);
+    std::string getName() override;
 };
 
 
